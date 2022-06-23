@@ -15,8 +15,6 @@ According to various password strength testers online, the randomly generated pa
 $ npm i newpass -g
 ```
 
-You may also download the binaries to run as a local executable on your OS (Mac, Linux, Windows) from the `bin/exe` folder. 
-
 ## Usage
 ### Generate a random password
 Prints a random cryptographically secure password to the terminal
