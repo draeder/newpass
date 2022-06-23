@@ -1,0 +1,29 @@
+{
+  "name": "newpass",
+  "version": "1.0.0",
+  "description": "Simple CLI utility that suggests a new cryptographically secure password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "unset NODE_OPTIONS && pkg bin/index.js -o bin/executables/newpass -t node16-linux-x64,node16-macos-x64,node16-win-x64"
+  },
+  "bin": {
+    "newpass": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draeder/newpass.git"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "Daniel Raeder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/draeder/newpass/issues"
+  },
+  "homepage": "https://github.com/draeder/newpass#readme",
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
