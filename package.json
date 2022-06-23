@@ -1,6 +1,6 @@
 {
   "name": "newpass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple CLI utility that suggests a new cryptographically secure password",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,5 @@
     "url": "https://github.com/draeder/newpass/issues"
   },
   "homepage": "https://github.com/draeder/newpass#readme",
-  "dependencies": {
-    "g": "^2.0.1"
-  }
+  "devDependencies": {}
 }
